@@ -42,17 +42,49 @@ alignTop {
 
 body {
   font-family: "Anton", sans-serif;
+  background-color: #d6e5e3;
+  color: #11151c;
 }
 
 .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: #ed047c;
+    background-color: #ed047c;
 }
 
 .btn {
     display: inline-block;
     padding: 6px 0px;
     border-radius:0px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+
+
+.footerFoot {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footerFoot, .page-wrap:after {
+  height: 142px;
+}
+.footerFoot {
+  background: #ff9a0c;
 }
