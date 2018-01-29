@@ -110,3 +110,14 @@ a {
 -1px 1px 0 #000,
 1px 1px 0 #000;
 }
+
+.imagePad {
+  margin: 0 auto;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.textPad {
+  margin: 0 auto;
+width: 80em;
+}
