@@ -68,6 +68,8 @@ body {
 
 .footerFoot {
   margin: 0;
+  width: 100%
+  box-sizing: border-box;
 }
 
 html, body {
