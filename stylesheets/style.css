@@ -1,0 +1,123 @@
+nav.navbar {
+  background: #ff9a0c;
+}
+
+logoSize {
+  height: 200px;
+  width: 50%;
+}
+
+#logo {
+  height: 100px;
+  padding: 0px;
+  object-fit: scale-down;
+}
+
+alignTop {
+  margin-top: 0;
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #ff9a0c;
+    background-color: #212d40;
+    padding: 40px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  background-color: #d6e5e3;
+  color: #11151c;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #ed047c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 0px;
+    border-radius:0px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+.headshotCircle {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.aboutPic {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+
+.footerFoot {
+  margin: 0;
+  width: 100%
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footerFoot, .page-wrap:after {
+  height: 142px;
+}
+.footerFoot {
+  background: #ff9a0c;
+}
+
+a {
+  color: #ffede1;
+  border: #black;
+  text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+
+.imagePad {
+  margin: 0 auto;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.textPad {
+  margin: 0 auto;
+width: 80em;
+}
